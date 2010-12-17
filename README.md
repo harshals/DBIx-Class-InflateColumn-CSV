@@ -4,10 +4,15 @@ Just a simple hack to store comma sperated values inside a table column.
 Module exports simple functions to search, add and delete values from a
 comma sperated list inside a column.
 
+BUILD
+
+To build this module, run 
+
+	dzil build .
 
 INSTALLATION
 
-To install this module, run the following commands:
+To install this module, run the following commands from build directory:
 
 	perl Makefile.PL
 	make
